@@ -7,11 +7,15 @@
     <nav class="site-nav">
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <ul class="menu-list">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <li class="menu-list__item">
+            <a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
     </nav>
 
