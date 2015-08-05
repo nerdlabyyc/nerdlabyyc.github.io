@@ -12,7 +12,7 @@
         <ul class="menu-list">
           {% assign sortedPages = site.pages | sort:"weight" %}
           {% for p in sortedPages %}
-            {% if p.title %}
+            {% if p.title and p.weight %}
             <li class="menu-list__item">
             <a {% if p.url == page.url %} class="menu-link active" {% else %} class="menu-link" {% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
             {% endif %}
