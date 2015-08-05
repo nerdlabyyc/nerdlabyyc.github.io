@@ -1,0 +1,198 @@
+@import 'normalize';
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-size: $base-font-size;
+    border-top: 5px solid $brand-color;
+    font-family: $base-font-family;
+    line-height: 1.5;
+    color: $text-color;
+}
+
+
+
+a {
+    text-decoration:none;
+    border-bottom:2px solid $brand-color-dark;
+    color:$brand-color-dark;
+}
+
+a:hover {
+    color:$text-color;
+}
+
+
+.tagline__container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.section {
+    padding: 6rem 0;
+}
+
+.section__tagline {
+    text-align:center;
+}
+
+.section-header {
+    margin-top:0;
+    margin-bottom:60px;
+}
+
+.color-background {
+    background-color: $background-color;
+}
+
+.image-background {
+    background-image: url(../img/background.png);
+}
+footer, header, h2, .button {
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Cutive;
+}
+
+
+.meetup-link {
+    color: $text-color-light;
+    text-decoration:none;
+    text-align:center;
+    padding:10px;
+    background-color: $brand-color;
+    border-radius:5px;
+}
+
+
+
+.meetup-link:hover {
+    background-color:$brand-color-dark;
+    color: $text-color-light;
+}
+
+.button {
+    margin: 50px 0;
+}
+h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+@media (min-width:481px) {
+    h2 {
+        font-size: 25px;
+        font-size: 1.5625rem;
+    }
+
+}
+
+@media (min-width:700px) {
+    h2 {
+        font-size: 30px;
+        font-size: 1.875rem;
+    }
+
+}
+
+.social-link:hover img {
+    opacity: .8;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+.social-links {
+    text-align:right;
+    height:20px;
+    z-index:1;
+    position:relative;
+}
+
+.social-link {
+    border-bottom:0;
+    margin-left: 5px;
+}
+
+.social-link img {
+    max-width:30px;
+}
+
+
+.coc__container {
+    background-color:$text-color;
+    padding:20px;
+}
+
+.footer__coc {
+    max-width:1240px;
+    margin:auto;
+    font-size: 14px;
+    text-align:left;
+    color:$text-color-light;
+}
+
+.footer__coc a {
+    color: #EA8A96;
+    border-bottom: 2px solid #EA8A96;
+}
+
+.footer__coc a:hover {
+    color:$brand-color;
+    border-bottom:2px solid $brand-color;
+}
+
+.site-attribution__container {
+    padding:10px 20px;
+}
+
+.site-attribution {
+    max-width:1240px;
+    margin:auto;
+    font-size:12px;
+    text-align:left;
+}
+
+.site-name {
+    text-transform:uppercase;
+}
+
+// Sticky Footer using Flexbox
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.post-content {
+    max-width:700px;
+    margin:auto;
+}
+
+
+.section__upcoming-event {
+    text-align:center;
+}
+
+.post-header {
+    background-image: url(../img/background.png);
+    background-color: $background-color;
+    padding: 2rem 0 1rem;
+}
