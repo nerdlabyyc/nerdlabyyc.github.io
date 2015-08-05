@@ -10,10 +10,11 @@
 
       <div class="trigger">
         <ul class="menu-list">
-          {% for page in site.pages %}
-            {% if page.title %}
+          {% assign sortedPages = site.pages | sort:"weight" %}
+          {% for p in sortedPages %}
+            {% if p.title %}
             <li class="menu-list__item">
-            <a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a {% if p.url == page.url %} class="menu-link active" {% else %} class="menu-link" {% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
             {% endif %}
           {% endfor %}
         </ul>
