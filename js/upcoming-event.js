@@ -11,7 +11,6 @@ var getMeetupData = function() {
         if (!$.isEmptyObject(data.results)) {
 
             var d = new Date(data.results[0].time + data.results[0].utc_offset);
-            console.log(data.results[0].utc_offset);
             var eventDescriptionFull = data.results[0].description;
             var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
 
