@@ -45,9 +45,12 @@ a:hover {
     text-align:center;
 }
 
+.tagline__header {
+    margin-bottom: 60px;
+}
+
 .section-header {
-    margin-top:0;
-    margin-bottom:60px;
+    margin-bottom:40px;
 }
 
 .color-background {
@@ -72,9 +75,10 @@ h1, h2, h3, h4, h5, h6 {
     color: $text-color-light;
     text-decoration:none;
     text-align:center;
-    padding:10px;
+    padding:10px 40px;
     background-color: $brand-color;
     border-radius:5px;
+    font-size:16px;
 }
 
 
@@ -173,14 +177,51 @@ h2 {
 
 // Sticky Footer using Flexbox
 
+/**
+ * 1. Avoid the IE 10-11 `min-height` bug.
+ * 2. Set `flex-shrink` to `0` to prevent Chrome, Opera, and Safari from
+ *    letting these items shrink to smaller than their content's default
+ *    minimum size.
+ * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
+ */
+
 .site {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  height: 100%; /* 1, 3 */
+}
+
+.site-header,
+.site-footer {
+  flex: none; /* 2 */
 }
 
 .site-content {
-  flex: 1;
+  flex: 1 0 auto; /* 2 */
+  padding: var(--space) var(--space) 0;
+  width: 100%;
+}
+.site-content::after {
+  content: '\00a0'; /* &nbsp; */
+  display: block;
+  margin-top: var(--space);
+  height: 0px;
+  visibility: hidden;
+}
+@media (--break-lg) {
+  .site-content {
+    padding-top: var(--space-lg);
+  }
+  .site-content::after {
+    margin-top: var(--space-lg);
+  }
+}
+
+.site-content--full {
+  padding: 0;
+}
+.site-content--full::after {
+  content: none;
 }
 
 .post-content {
@@ -214,4 +255,47 @@ h2 {
 
 .post-date {
     font-size:14px;
+}
+
+.event-detail:before {
+    padding-right:5px;
+}
+
+.event-date {
+    margin-right:20px;
+}
+
+.hidden {
+    display:none;
+}
+
+.meetup-details {
+    position:relative;
+    display:inline-block;
+    margin-bottom:1.5rem;
+    font-size:16px;
+}
+
+.meetup-details:before {
+    right: 100%;
+    margin-right: 25px;
+}
+
+.meetup-details:after {
+    left: 100%;
+    margin-left: 25px;
+}
+.meetup-details:before, .meetup-details:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 90px;
+    display: block;
+    margin-top: -1px;
+    border-top: 2px solid $grey-color;
+}
+
+.event-description {
+    margin-bottom: 3rem;
 }

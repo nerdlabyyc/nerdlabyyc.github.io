@@ -4,7 +4,10 @@ var getMeetupData = function() {
         eventLocation = $('#event-location'),
         eventTitle = $('#event-title'),
         eventDescription = $('#event-description'),
-        eventRSVP = $('#event-rsvp');
+        eventRSVP = $('#event-rsvp'),
+        eventNo = $('#no-events'),
+        eventYes = $('#yes-events'),
+        eventLoading = $('#loading-events');
 
 
     $.getJSON(meetupURL, function(data) {
@@ -19,7 +22,11 @@ var getMeetupData = function() {
             eventTitle.text(data.results[0].name);
             eventDescription.html(eventDescriptionSnippet[0]);
             eventRSVP.attr("href", data.results[0].event_url);
-            eventRSVP.text('RSVP on Meetup');
+            eventLoading.toggleClass('hidden');
+            eventYes.toggleClass('hidden');
+        } else {
+            eventLoading.toggleClass('hidden');
+            eventNo.toggleClass('hidden');
         }
     });
 
