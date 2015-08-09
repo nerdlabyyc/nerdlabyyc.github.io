@@ -50,7 +50,7 @@ If you are being harassed by a NerdLab YYC community member, notice that someone
 
 If you believe anyone is in physical danger, please notify appropriate law enforcement first. If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
-For further details on reporting Code of Conduct Violations, please refer to our expanded Reporting Guidelines outline for additional information and instructions.
+For further details on reporting Code of Conduct Violations, please refer to our expanded [Reporting Guidelines]({{site.baseurl}}/code-of-conduct/reporting-guidelines) for additional information and instructions.
 
 ## Attribution
 
