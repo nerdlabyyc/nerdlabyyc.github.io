@@ -185,7 +185,7 @@ h2 {
 
 .post-content {
     max-width:700px;
-    margin:auto;
+    margin:4rem auto;
 }
 
 
@@ -196,5 +196,22 @@ h2 {
 .post-header {
     background-image: url(../img/background.png);
     background-color: $background-color;
-    padding: 2rem 0 1rem;
+    padding: 3rem 0 2rem;
+}
+
+.blog-post__list-item {
+    list-style-type:none;
+    padding:3rem 0;
+}
+
+.blog-post__list-item + .blog-post__list-item {
+    border-top: 1px solid $grey-color-light;
+}
+
+.blog-list-header {
+    font-size: 25px;
+}
+
+.post-date {
+    font-size:14px;
 }
