@@ -4,29 +4,31 @@
   {% include head.html %}
 
   <body class="site">
-    {% include header.html %}
-    <main class="site-content">
-      <div class="page-content">
-        <div class="wrapper">
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-          </header>
-          <div class="post-content">
-            <ul class="blog-post__list">
-              {% for post in site.posts %}
-                <li class="blog-post__list-item">
-                  <a href="{{ post.url }}"><h2 class="blog-list-header">{{ post.title }}</h2></a>
-                  {{ post.excerpt }}
-                  <div class="post-date">
-                    {{ post.date | date: '%B %d, %Y' }}
-                  </div>
-                </li>
-              {% endfor %}
-            </ul>
+    <div class="page-wrap">
+      {% include header.html %}
+      <main class="site-content">
+        <div class="page-content">
+          <div class="wrapper">
+            <header class="post-header">
+              <h1 class="post-title">{{ page.title }}</h1>
+            </header>
+            <div class="post-content">
+              <ul class="blog-post__list">
+                {% for post in site.posts %}
+                  <li class="blog-post__list-item">
+                    <a href="{{ post.url }}"><h2 class="blog-list-header">{{ post.title }}</h2></a>
+                    {{ post.excerpt }}
+                    <div class="post-date">
+                      {{ post.date | date: '%B %d, %Y' }}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
       {% include footer.html %}
 
   </body>
