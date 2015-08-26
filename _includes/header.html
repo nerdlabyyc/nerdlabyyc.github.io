@@ -5,10 +5,10 @@
       <a class="social-link" href="mailto:NerdLabYYC@gmail.com"><span class="fa fa-envelope"></span><span class="screen-reader-text">Email</span></a><a class="social-link" href="https://www.facebook.com/NerdLabYYC"><span class="fa fa-facebook"></span></a><span class="screen-reader-text">Facebook</span><a class="social-link" href="https://twitter.com/NerdLabYYC"><span class="fa fa-twitter"></span><span class="screen-reader-text">Twitter</span></a>
     </div>
     <a class="site-title" href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/img/nerdlabyyc-logo.png" alt="NerdLab YYC"></a>
+    <button class="menu-button" id="menu-button">Menu</button>
 
     <nav class="site-nav">
-
-      <div class="trigger">
+      <div class="trigger" id="trigger">
         <ul class="menu-list">
           {% assign sortedPages = site.pages | sort:"weight" %}
           {% for p in sortedPages %}
