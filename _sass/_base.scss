@@ -19,6 +19,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin:0;
 }
+p {
+	margin-top:0;
+}
+
+h2 {
+	margin-top: 3rem;
+}
+
+.blog-list-header, .section-header {
+	margin-top:0;
+	margin-bottom:1rem;
+}
 
 a {
     text-decoration:none;
@@ -32,7 +44,7 @@ a:hover {
 
 
 .tagline__container {
-    max-width: 800px;
+    max-width: 832px;
     margin: auto;
     padding: 0 10px;
 }
@@ -63,9 +75,7 @@ a:hover {
 footer, header, .button {
     text-align: center;
 }
-footer {
-    margin-top: 20px;
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Cutive;
 }
@@ -173,54 +183,58 @@ h2 {
     text-transform:uppercase;
 }
 
-// Sticky Footer using Flexbox
+// Sticky Footer using Min Height
 
-/**
- * 1. Avoid the IE 10-11 `min-height` bug.
- * 2. Set `flex-shrink` to `0` to prevent Chrome, Opera, and Safari from
- *    letting these items shrink to smaller than their content's default
- *    minimum size.
- * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
- */
-
-.site {
-  display: flex;
-  flex-direction: column;
-  height: 100%; /* 1, 3 */
+html, body {
+  height: 100%;
 }
-
-.site-header,
-.site-footer {
-  flex: none; /* 2 */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -120px; 
 }
-
-.site-content {
-  flex: 1 0 auto; /* 2 */
-  padding: var(--space) var(--space) 0;
-  width: 100%;
-}
-.site-content::after {
-  content: '\00a0'; /* &nbsp; */
+.page-wrap:after {
+  content: "";
   display: block;
-  margin-top: var(--space);
-  height: 0px;
-  visibility: hidden;
 }
-@media (--break-lg) {
-  .site-content {
-    padding-top: var(--space-lg);
-  }
-  .site-content::after {
-    margin-top: var(--space-lg);
-  }
+.site-footer, .page-wrap:after {
+  height: 120px; 
 }
 
-.site-content--full {
-  padding: 0;
+
+@media (min-width:560px) {
+
+	.page-wrap {
+	  margin-bottom: -183px; 
+	}
+	.site-footer, .page-wrap:after {
+	  height: 183px; 
+	}
+
 }
-.site-content--full::after {
-  content: none;
+
+@media (min-width:737px) {
+
+	.page-wrap {
+	  margin-bottom: -141px; 
+	}
+	.site-footer, .page-wrap:after {
+	  height: 141px; 
+	}
+
 }
+
+@media (min-width:1062px) {
+
+	.page-wrap {
+	  margin-bottom: -120px; 
+	}
+	.site-footer, .page-wrap:after {
+	  height: 120px; 
+	}
+
+}
+
 
 .post-content {
     max-width:700px;
