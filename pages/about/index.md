@@ -10,7 +10,10 @@ We value intersectional feminism, our local tech community and nerding out. We a
 
 Currently, our events  include:
 
-- Book club on feminist, sci-fi, and tech/work related  topics
-- Maker sessions  to  work on crafts and projects
+- Feminist Book Club
+- Workshops:
+  * Learn to Speak at Tech Events
+  * Ally Skills
+- Small group movie/crafting hangouts with NerdLab YYC regulars
 
-We  also enjoy participating in other community events. You’ll often find us at [Nerd Nite Calgary](http://calgary.nerdnite.com/) and [Pixels & Pints](http://www.meetup.com/pxandpints/). If you have similar values - and are looking for a fun, <del>sarcastic</del> and supportive community in Calgary -  join us on Meetup.
+We also enjoy participating in other community events. You'll often find us at [Pixels & Pints](http://www.meetup.com/pxandpints/), [Calgary UX](http://calgaryux.com) and [Nerd Nite Calgary](http://calgary.nerdnite.com/). If you have similar values - and are looking for a fun, <del>sarcastic</del> and supportive community in Calgary -  join us on Meetup.
