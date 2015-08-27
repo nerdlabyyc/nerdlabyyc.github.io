@@ -14,8 +14,19 @@
 
 .menu-button {
     float:right;
-    margin-top:50px;
+    margin-top:40px;
     margin-right:10px;
+    background: none;
+    border: 1px solid $grey-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-button:active {
+    background:$grey-color-light;
 }
 
 @media (max-width:660px) {
