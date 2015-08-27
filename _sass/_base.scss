@@ -15,12 +15,6 @@ body {
     line-height: 1.5;
     color: $text-color;
 }
-
-.blog-list-header, .section-header {
-	margin-top:0;
-	margin-bottom:1rem;
-}
-
 a {
     text-decoration:none;
     border-bottom:2px solid $brand-color-dark;
@@ -31,6 +25,9 @@ a:hover {
     color:$text-color;
 }
 
+.tagline__header {
+    margin:0;
+}
 
 .tagline__container {
     max-width: 832px;
@@ -42,16 +39,13 @@ a:hover {
     padding: 6rem 0;
 }
 
+.section-header {
+    margin-top:0;
+    margin-bottom:1rem;
+}
+
 .section__tagline {
     text-align:center;
-}
-
-.tagline__header {
-    margin-bottom: 60px;
-}
-
-.section-header {
-    margin-bottom:40px;
 }
 
 .color-background {
@@ -61,7 +55,7 @@ a:hover {
 .image-background {
     background-image: url(../img/background.png);
 }
-.post-title, footer, .button {
+.post-header, footer, .button {
     text-align: center;
 }
 
@@ -72,10 +66,11 @@ a:hover {
     color: $text-color-light;
     text-decoration:none;
     text-align:center;
-    padding:10px 40px;
+    padding:7px 20px;
     background-color: $brand-color;
     border-radius:5px;
     font-size:16px;
+    display:inline-block;
 }
 
 
@@ -85,9 +80,6 @@ a:hover {
     color: $text-color-light;
 }
 
-.button {
-    margin: 50px 0;
-}
 
 .meetup-link--join {  
     margin-top:30px;
@@ -96,9 +88,6 @@ a:hover {
 .meetup-link--rsvp {
     margin-top:10px;
 }
-
-
-
 .strikethrough {
     text-decoration: line-through;
 }
@@ -214,9 +203,21 @@ html, body {
 
 .post-content {
     max-width:700px;
-    margin:4rem auto;
+    margin:1rem auto;
+    padding:0 10px;
 }
 
+@media (min-width:400px) {
+    .post-content {
+        margin:2rem auto;
+    }
+}
+
+@media (min-width:850px) {
+    .post-content {
+        margin:3rem auto;
+    }
+}
 
 .section__upcoming-event {
     text-align:center;
@@ -228,65 +229,93 @@ html, body {
     padding: 3rem 0 2rem;
 }
 
+.blog-post__list {
+    padding:0;
+    margin:0;
+}
+
 .blog-post__list-item {
     list-style-type:none;
-    padding:3rem 0;
 }
 
 .blog-post__list-item + .blog-post__list-item {
     border-top: 1px solid $grey-color-light;
+    margin-top:2rem;
+    padding-top:2rem;
 }
 
 .blog-list-header {
-    font-size: 25px;
+    margin:0;
+}
+
+@media (min-width:700px) {
+    .blog-list-header {
+        font-size:25px;
+    }
 }
 
 .post-date {
     font-size:14px;
 }
 
+.event-detail.fa {
+    line-height:1.5;
+}
 .event-detail:before {
     padding-right:5px;
 }
 
-.event-date {
-    margin-right:20px;
-}
+
 
 .hidden {
     display:none;
 }
 
 .meetup-details {
-    position:relative;
-    display:inline-block;
-    margin-bottom:1.5rem;
-    font-size:16px;
+    font-size:1rem;
+    text-align:left;
+    max-width:200px;
+    margin: 0 auto 1rem;
 }
 
-.meetup-details:before {
-    right: 100%;
-    margin-right: 25px;
+@media (min-width:400px) {
+    .event-date {
+        margin-right:20px;
+    }
+    .meetup-details {
+        text-align:center;
+        display:inline-block;
+        max-width: 1000px;
+    }
+}
+@media (min-width:605px) {
+    .meetup-details {
+        position:relative;
+        display:inline-block;
+    }
+
+    .meetup-details:before {
+        right: 100%;
+        margin-right: 25px;
+    }
+
+    .meetup-details:after {
+        left: 100%;
+        margin-left: 25px;
+    }
+    .meetup-details:before, .meetup-details:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        height: 3px;
+        width: 90px;
+        display: block;
+        margin-top: -1px;
+        border-top: 2px solid $grey-color;
+    }   
 }
 
-.meetup-details:after {
-    left: 100%;
-    margin-left: 25px;
-}
-.meetup-details:before, .meetup-details:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    height: 3px;
-    width: 90px;
-    display: block;
-    margin-top: -1px;
-    border-top: 2px solid $grey-color;
-}
 
-.event-description {
-    margin-bottom: 3rem;
-}
 
 .screen-reader-text {
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -308,4 +337,9 @@ html, body {
 
 .preloader {
     width:100px;
+}
+
+
+.container {
+    padding: 0 10px;
 }
