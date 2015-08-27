@@ -16,17 +16,6 @@ body {
     color: $text-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin:0;
-}
-p {
-	margin-top:0;
-}
-
-h2 {
-	margin-top: 3rem;
-}
-
 .blog-list-header, .section-header {
 	margin-top:0;
 	margin-bottom:1rem;
@@ -76,9 +65,7 @@ a:hover {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Cutive;
-}
+
 
 
 .meetup-link {
@@ -101,23 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     margin: 50px 0;
 }
-h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
-}
-@media (min-width:481px) {
-    h2 {
-        font-size: 25px;
-        font-size: 1.5625rem;
-    }
 
 }
-
-@media (min-width:700px) {
-    h2 {
-        font-size: 30px;
-        font-size: 1.875rem;
-    }
 
 }
 
