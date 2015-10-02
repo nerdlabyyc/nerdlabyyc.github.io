@@ -7,8 +7,6 @@ permalink: /internet-of-garbage
 author: Heather Tovey
 author-link: http://twitter.com/hrtovey
 ---
-<a href="http://www.bloglovin.com/blog/14480001/?claim=42v27rzvtja"></a>
-
 From the minute I saw Twitter explode in praise of <a href="http://sarahjeong.net/about/">Sarah Jeong</a>’s book <span class="italic"><a href="http://www.forbes.com/ebooks/the-internet-of-garbage/">The Internet of Garbage</a></span>, I knew that the NerdLab YYC book club NEEDED to read it and discuss it together. We’re an intersectional feminist in tech group, and most of us have had experiences with harassment on the internet in one shape or another.
 
 <div class="post-image">
