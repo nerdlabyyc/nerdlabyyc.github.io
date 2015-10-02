@@ -16,7 +16,9 @@
               <ul class="blog-post__list">
                 {% for post in site.posts %}
                   <li class="blog-post__list-item">
-                    <a href="{{ post.url }}"><h2 class="blog-list-header">{{ post.title }}</h2></a>
+                    <h2 class="blog-list-header">
+                      <a class="blog-list-header__link" href="{{ post.url }}">{{ post.title }}</a>
+                    </h2>
                     {{ post.excerpt }}
                     <div class="post-date">
                       {{ post.date | date: '%B %d, %Y' }}

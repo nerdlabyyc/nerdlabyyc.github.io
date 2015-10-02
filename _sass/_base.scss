@@ -21,12 +21,26 @@ a {
     color:$brand-color-dark;
 }
 
+img {
+    max-width:100%;
+}
+
 a:hover {
     color:$text-color;
 }
 
+.align-center {
+    display:block;
+    margin:auto;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
 .tagline__header {
     margin:0;
+    line-height:1.5;
 }
 
 .tagline__container {
@@ -229,6 +243,10 @@ html, body {
     padding: 3rem 0 2rem;
 }
 
+.image-caption {
+    margin-bottom:1rem;
+}
+
 .blog-post__list {
     padding:0;
     margin:0;
@@ -246,12 +264,23 @@ html, body {
 
 .blog-list-header {
     margin:0;
+    padding-bottom:3px;
 }
 
 @media (min-width:700px) {
     .blog-list-header {
         font-size:25px;
     }
+}
+
+.blog-list-header__link {
+    border-bottom:none;
+    padding-top:10px;
+}
+
+.author-link {
+    border-bottom:2px solid $text-color;
+    color: $text-color;
 }
 
 .post-date {
@@ -342,4 +371,12 @@ html, body {
 
 .container {
     padding: 0 10px;
+}
+
+.twitter-tweet {
+    margin:auto;
+}
+
+.italic {
+    font-style:italic;
 }
