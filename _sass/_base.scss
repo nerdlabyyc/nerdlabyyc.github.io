@@ -344,7 +344,10 @@ html, body {
     }   
 }
 
-
+.event-description {
+    max-width:700px;
+    margin:auto;
+}
 
 .screen-reader-text {
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
