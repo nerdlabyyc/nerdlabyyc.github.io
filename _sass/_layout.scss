@@ -1,10 +1,15 @@
 .grid {
 	margin:0;
 	padding:0;
-	margin-right:-15px;
 }
 
+
+
 @media (min-width:480px) {
+
+	.grid {
+		margin-right:-10px;
+	}
 	.grid--one-third {
 		width:50%;
 		display:inline-block;
@@ -13,6 +18,9 @@
 }
 
 @media (min-width:680px) {
+	.grid {
+		margin-right:-15px;
+	}
 	.grid--one-third {
 		width:33%;
 		display:inline-block;
