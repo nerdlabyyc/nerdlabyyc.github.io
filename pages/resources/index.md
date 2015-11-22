@@ -47,5 +47,4 @@ If you're like us, you're probably interested in learning as much as possible! T
 
 ##Local
 
-- [Feminism Calgary](http://www.feminismcalgary.com/)
-- [Yeah, What She Said](http://cjsw.com/program/ywss/)
+- [Yeah, What She Said](http://cjsw.com/program/yeah-what-she-said/)
