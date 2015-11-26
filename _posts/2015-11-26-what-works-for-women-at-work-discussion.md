@@ -7,7 +7,7 @@ permalink: /what-works-for-women-at-work
 author: Heather Tovey
 author-link: http://twitter.com/hrtovey
 ---
-<span class="italic">[What Works for Women at Work: Four Patterns Working Women Need to Know](https://www.goodreads.com/book/show/17920210-what-works-for-women-at-work)</span> has been my favorite work-related read in long while. It's straightforward and doesn't sugar coat what it means to be a woman in the workplace. Joan C. Williams and Rachel Dempsey comb through 35 years of research and 127 interviews with successful women to provide the reader with a book packed full of advice. I recommend this book to any woman (or any ally) looking to understand more about biases at work.
+<span class="italic">[What Works for Women at Work: Four Patterns Working Women Need to Know](https://www.goodreads.com/book/show/17920210-what-works-for-women-at-work)</span> has been my favourite work-related read in long while. It's straightforward and doesn't sugar coat what it means to be a woman in the workplace. Joan C. Williams and Rachel Dempsey comb through 35 years of research and 127 interviews with successful women to provide the reader with a book packed full of advice. I recommend this book to any woman (or any ally) looking to understand more about biases at work.
 
 <div class="post-image image-caption">
 	<img class="align-center" src="{{site.baseurl}}/img/posts/20151126/what-works-for-women-at-work.png">
@@ -22,7 +22,7 @@ In their book, Williams and Dempsey discuss [four patterns of gender bias](http:
 
 They also cover Double Jeopardy, which is how gender bias differs (and is often worse) for women of color.
 
-Throughout the book, Williams and Dempsey recognize that not all of their advice will work for (or be attractive to) every woman. I really appreciated that they pointed out that sometimes what works for one woman can get another woman into trouble.
+Throughout the book, Williams and Dempsey recognize that not all of their advice will work for (or be attractive to) every woman. I really appreciated that they pointed out that sometimes what works for one woman could get another woman into trouble.
 
 I would have loved to have read information on transgender women, women with disabilities, and more on lesbian women, but I also understand that we need more research on a variety of women's experiences. Overall, <span class="italic">What Works for Women at Work</span> is an excellent book full of experiences that you'll identify with and advice that you'll appreciate.
 
