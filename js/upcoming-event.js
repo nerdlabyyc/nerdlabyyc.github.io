@@ -18,7 +18,13 @@ var getMeetupData = function() {
             var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
 
             eventDate.text(getDateFormat(d));
-            eventLocation.text(data.results[0].venue.name);
+            if (data.results.hasOwnProperty('venue')) {
+                eventLocation.text(data.results[0].venue.name);   
+            } else {
+                $('#event-location').addClass('hidden');
+                $('#event-date').removeClass('event-date');
+            }
+            
             eventTitle.text(data.results[0].name);
             eventDescription.html(eventDescriptionSnippet[0]);
             eventRSVP.attr("href", data.results[0].event_url);
