@@ -20,14 +20,14 @@ In their book, Williams and Dempsey discuss [four patterns of gender bias](http:
 - Maternal Wall: When mothers are assumed to be incompetent and uncommitted.
 - Tug of War: When gender bias turns into conflicts among women.
 
-They also cover Double Jeopardy, which is how gender bias differs (and is often worse) for women of color.
+They also cover Double Jeopardy, which is how gender bias differs (and is often worse) for women of colour.
 
 Throughout the book, Williams and Dempsey recognize that not all of their advice will work for (or be attractive to) every woman. I really appreciated that they pointed out that sometimes what works for one woman could get another woman into trouble.
 
 I would have loved to have read information on transgender women, women with disabilities, and more on lesbian women, but I also understand that we need more research on a variety of women's experiences. Overall, <span class="italic">What Works for Women at Work</span> is an excellent book full of experiences that you'll identify with and advice that you'll appreciate.
 
 ## Next NerdLab YYC Read
-For those of you who are also interested in hearing about other women's experiences, join us for our [next book club meeting in February](http://www.meetup.com/NerdLab-YYC/events/225924656/). We'll be reading [Lean Out: The Struggle for Gender Equality in Tech and Start-Up Culture](https://www.goodreads.com/book/show/25258567-lean-out) edited by Elissa Shevinsky. This book features 25 essays from a variety of people including women of color, LGBTQ women, transgender people, and people who identify as agender.
+For those of you who are also interested in hearing about other women's experiences, join us for our [next book club meeting in February](http://www.meetup.com/NerdLab-YYC/events/225924656/). We'll be reading [Lean Out: The Struggle for Gender Equality in Tech and Start-Up Culture](https://www.goodreads.com/book/show/25258567-lean-out) edited by Elissa Shevinsky. This book features 25 essays from a variety of people including women of colour, LGBTQ women, transgender people, and people who identify as agender.
 
 Want to add your thoughts? Find us on <a href="https://twitter.com/nerdlabyyc">Twitter</a> or <a href="https://www.facebook.com/NerdLabYYC">Facebook</a>.
 
@@ -59,7 +59,7 @@ Want to add your thoughts? Find us on <a href="https://twitter.com/nerdlabyyc">T
 
 7.	Do you employ different strategies if you are navigating or surviving at work, versus trying to make changes? Do you think these strategies need to be different?
 
-8.	Women of color often have to deal with both gender and racial biases at the same time. How do the 4 gender biases differ by race according to the book? How can you be aware of your own racial biases?
+8.	Women of colour often have to deal with both gender and racial biases at the same time. How do the 4 gender biases differ by race according to the book? How can you be aware of your own racial biases?
 
 9.	What was the best part of this book for you? What is this book missing that you would like to read more about?
 
