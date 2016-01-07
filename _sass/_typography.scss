@@ -61,18 +61,17 @@ h3 {
 
 .blockquote {
         margin: 0 0 1em;
-    padding: 1em;
-    border-top: 2px solid #E15667;
-    color: rgba(47,47,47,0.7);
-    font-size: 18px;
-    line-height: 1.4;
-    border-bottom: 2px solid #E15667;
+    padding: 2em 1.5em;
+    border-top: 2px solid $brand-color;
+    color: rgba(47,47,47,0.8);
+    font-size: 14px;
+    border-bottom: 2px solid $brand-color;
 }
 
 @media (min-width: 680px) {
     .blockquote {
-        padding: 1em 40px;
-        font-size:20px;
+        padding: 2em 5em;
+        font-size:16px;
     }
 }
 
@@ -80,6 +79,9 @@ blockquote {
     margin:0;
 }
 
+.blockquote-author {
+    color: $brand-color;
+}
 .blockquote-author:before {
     content: "—";
 }
