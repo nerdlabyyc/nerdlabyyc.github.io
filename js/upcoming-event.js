@@ -91,14 +91,10 @@ var getHourFormat = function(hour) {
 };
 
 var getPeriodOfDay = function(hour) {
-    if (hour > 12) {
+    if (hour >= 12) {
         return 'pm';
-    } else if (hour < 12) {
+    } else {
         return 'am';
-    } else if (hour === 12) {
-        return 'noon';
-    } else if (hour === 0) {
-        return 'midnight';
     }
 };
 
