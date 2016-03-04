@@ -26,6 +26,18 @@
 		display:inline-block;
 		padding-right:10px;
 	}
+
+	
+	.figure-grid {
+		margin:0;
+		margin-right:-20px;
+		margin-top:30px;
+	}
+	.grid--one-half {
+		width:50%;
+		display:inline-block;
+		padding-right:20px;
+	}
 }
 
 
@@ -33,3 +45,12 @@
 .image--border {
 	border:1px solid #999;
 }
+
+.figure-caption {
+	vertical-align:top;
+}
+
+.figure-image {
+	border: 1px solid $grey-color-light;
+}
+
