@@ -8,7 +8,7 @@ author: Heather Tovey
 author-link: http://twitter.com/hrtovey
 ---
 
-I recently gave a Speaking at Tech Events for Beginners workshop. Here, you'll find the slides with my notes, and some resources for continuing on with public speaking.
+I recently gave a Speaking at Tech Events for Beginners workshop. Here, you'll find the slides with my notes, and some resources for continuing on with public speaking. You can also download the [accompanying worksheets](../assets/general-worksheets.pdf).
 
 ##Table of Contents
 
