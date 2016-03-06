@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  'Speaking at Tech Events for Beginners'
-date:   2016-03-05 16:00:00
+date:   2016-03-05 12:00:00
 categories: workshop
 permalink: /speaking-at-tech-events
 author: Heather Tovey
