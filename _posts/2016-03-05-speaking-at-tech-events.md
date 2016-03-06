@@ -937,7 +937,7 @@ Also, thank you to Poornima Vijayashanker and Karen Catlin for providing free eb
 - Sad Bunny by Bradley Ashburn
 - Crown by sortagreat icons
 
-##Resources
+## Resources
 
 Here are some great resources (some with resources of their own) to help you through your public speaking journey.
 
