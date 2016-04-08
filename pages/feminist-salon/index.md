@@ -6,7 +6,7 @@ permalink: feminist-salon/
 
 <img src="/img/pages/salon/feminist-salon.jpg">
 
-NerdLabYYC is happy to bring feminist salons to Calgary! This timeless style of gathering and discussion has been around for centuries and continues to grow in popularity.
+NerdLab YYC is happy to bring feminist salons to Calgary! This timeless style of gathering and discussion has been around for centuries and continues to grow in popularity.
 
 ## So, what is a "salon"?
 
