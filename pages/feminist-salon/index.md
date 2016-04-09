@@ -18,4 +18,4 @@ As intersectional feminists, the NerdLab YYC Salon will be focused on creating a
 
 ​You don't need much to attend and participate. Come armed with an open mind and a willingness to listen and discuss. It's great if you have a question or something in mind for the discussion based on the theme or topic. Read an interesting article? Post it and we'll talk about it! Have a question about feminism in practice? We want to share our experiences and support one another. We're excited to have some healthy discussion about feminism and welcome all who think that would be pretty awesome too.
 
-Whether you're as excited as we are about this idea, or simply curious enough to check it out, we'll see you at NerdLab YYC's Feminist Salons.
+Whether you're as excited as we are about this idea, or simply curious enough to check it out, we'll see you at NerdLab YYC's [Feminist Salons](http://www.meetup.com/NerdLab-YYC/events/230217743/).
