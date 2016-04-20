@@ -889,6 +889,8 @@ I recently gave a Speaking at Tech Events for Beginners workshop. Here, you'll f
   --><figcaption class="grid--one-half figure-caption">Congratulations on creating a talk today! And now it's time to start presenting talks.</figcaption>
 </figure>
 
+These workshop materials are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ## Attribution
 
 ### Thank You
