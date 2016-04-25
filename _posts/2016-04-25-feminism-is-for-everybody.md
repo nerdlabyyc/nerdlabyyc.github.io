@@ -17,7 +17,7 @@ In her book, bell hooks covers a range of feminist topics including race and gen
 
 In our book club meeting, we discussed the important points bell hooks brought up about feminism and how it should be for everyone. We also examined how white feminism has affected the diversity in tech movement.
 
-##“Feminism is for Everybody” Book Club Discussion Questions
+## “Feminism is for Everybody” Book Club Discussion Questions
 
 Source: ["Feminism is for Everybody: Further Discussion"](https://feministclassics.wordpress.com/2012/02/08/feminism-is-for-everybody-further-discussion/) from A Year of Feminist Classics 
 
@@ -47,7 +47,7 @@ Source: ["Feminism is for Everybody: Passionate Politics Topics for Discussion"]
 
 10. How has the advancement of some feminist leaders to high-earning positions been a detriment to the overarching goals of feminism?
 
-###Intersectionality and Tech Questions
+### Intersectionality and Tech Questions
 11. bell hooks often talks about intersectionality and the lack of it in mainstream feminism. How has this issue shown up in diversity in tech initiatives?
 
 12. How can white women in tech and STEAM fields use their privilege to uplift the voices of members from other marginalized communities?
