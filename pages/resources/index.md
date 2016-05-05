@@ -19,13 +19,13 @@ If you're like us, you're probably interested in learning as much as possible! T
 - [Double Union](https://www.doubleunion.org/)
 - [Geek Feminism Resources for Allies](http://geekfeminism.wikia.com/wiki/Resources_for_allies)
 
-##Podcasts:
+## Podcasts:
 
 - [Nerdette](http://nerdettepodcast.com/)
 - [Another Round](http://www.buzzfeed.com/anotherround)
 - [Ctrl+Click Cast](http://ctrlclickcast.com/)
 
-##Twitter
+## Twitter
 
 - [WomanAgainstFeminism](https://twitter.com/NoToFeminism)
 - [Adria Richards](https://twitter.com/adriarichards)
@@ -35,16 +35,16 @@ If you're like us, you're probably interested in learning as much as possible! T
 - [Steminist](https://twitter.com/steminist)
 - [blackgurltech](https://twitter.com/blackgurltech)
 
-##Newsletters
+## Newsletters
 
 - [Technically Speaking](http://www.techspeak.email/)
 
-##Events
+## Events
 
 - [AlterConf](http://www.alterconf.com/)
 - [&:conf](https://www.andconf.io/)
 - [One Web For All](http://onewebforall.us/)
 
-##Local
+## Local
 
 - [Yeah, What She Said](http://cjsw.com/program/yeah-what-she-said/)
