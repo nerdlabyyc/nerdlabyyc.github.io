@@ -12,8 +12,9 @@ body {
     font-size: $base-font-size;
     border-top: 5px solid $brand-color;
     font-family: $base-font-family;
-    line-height: 1.5;
+    line-height: 1.6;
     color: $text-color;
+    font-weight:300;
 }
 a {
     text-decoration:none;
@@ -102,6 +103,16 @@ a:hover {
 .meetup-link--rsvp {
     margin-top:10px;
 }
+
+.meetup-link-post {
+    text-align:center;
+    margin: 4rem 0;
+}
+
+.meetup-link-post-footer {
+    text-align:center;
+}
+
 .strikethrough {
     text-decoration: line-through;
 }
@@ -156,6 +167,7 @@ a:hover {
     margin:auto;
     font-size:12px;
     text-align:left;
+    font-weight:400;
 }
 
 .site-name {
@@ -382,4 +394,21 @@ html, body {
 
 .italic {
     font-style:italic;
+}
+
+.interview-intro, .post-footer {
+    background: $background-color;
+    padding: 1rem;
+}
+
+.post-footer {
+    border: 5px solid $brand-color;
+}
+
+.post-footer-header {
+    font-size: 20px;
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 1rem;
+
 }
