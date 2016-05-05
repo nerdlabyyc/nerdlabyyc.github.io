@@ -19,7 +19,7 @@ author-link: https://twitter.com/FitzerellaYYC
 	<div class="small-text text-align-center image-caption"><a href="https://www.flickr.com/photos/bionicteaching/14749348993">dartboard</a> by <a href="https://www.flickr.com/photos/bionicteaching/">Tom Woodard</a>, available under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a></div>
 </div>
 
-<p class="meetup-link-post"><a href="#" class="meetup-link">Get your ticket on Eventbrite!</a></p>
+<p class="meetup-link-post"><a href="https://www.eventbrite.ca/e/feminist-salon-feminism-and-intersectionality-tickets-24934607081" class="meetup-link">Get your ticket on Eventbrite!</a></p>
 
 **What gave you the idea for the Feminist Salon?**
 
@@ -56,7 +56,7 @@ People need to debate, ask questions and get more comfortable with their own dis
 
 <h2 class="post-footer-header">Join us at our 1st Feminist Salon!</h2>
 
-<p class="meetup-link-post-footer"><a href="#" class="meetup-link">RSVP on Eventbrite!</a></p>
+<p class="meetup-link-post-footer"><a href="https://www.eventbrite.ca/e/feminist-salon-feminism-and-intersectionality-tickets-24934607081" class="meetup-link">RSVP on Eventbrite!</a></p>
 
 <p>Things that came up during our conversation that didn’t make it into this write-up… douchebags, #feministpopquiz and R. Kelly.</p>
 
