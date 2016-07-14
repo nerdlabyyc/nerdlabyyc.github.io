@@ -9,7 +9,7 @@ NerdLab YYC is dedicated to providing a harassment-free experience for everyone.
 
 Harassment includes:
 
-- Offensive comments - including jokes - related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, or religion.
+- Offensive comments - including jokes - related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, or religion (or lack thereof).
 - Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
 - Deliberate misgendering or use of ‘dead’ or rejected names.
 - Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate.
