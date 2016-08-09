@@ -6,7 +6,7 @@ permalink: about/
 ---
 
 
-NerdLab YYC values intersectional feminism, our local tech community and nerding out. We are working on building a supportive and inclusive culture in the Calgary tech community, while having a ridiculous amount of fun.
+NerdLab YYC values intersectional feminism, our local tech community and nerding out. We are working on building a supportive and inclusive culture in the Calgary tech and digital community, while having a ridiculous amount of fun.
 
 ## Events
 
