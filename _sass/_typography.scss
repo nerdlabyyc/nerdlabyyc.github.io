@@ -59,18 +59,17 @@ h3 {
 
 }
 
-.blockquote {
-        margin: 0 0 1em;
-    padding: 2em 1.5em;
-    border-top: 2px solid $brand-color;
+
+blockquote {
+    margin: 0 0 1em;
+    padding: 0 0 0 1rem;
+    border-left: 2px solid $brand-color;
     color: rgba(47,47,47,0.8);
     font-size: 14px;
-    border-bottom: 2px solid $brand-color;
 }
 
 @media (min-width: 680px) {
-    .blockquote {
-        padding: 2em 5em;
+    blockquote {
         font-size:16px;
     }
 }

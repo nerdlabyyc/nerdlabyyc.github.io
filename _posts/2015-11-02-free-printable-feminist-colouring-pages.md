@@ -10,16 +10,37 @@ author-link: http://twitter.com/hrtovey
 
 Our last Sass & Craft of the year had a great turnout with everyone working on a variety of projects. We enjoyed conversation covering everything from the recent election to Quinceañera celebrations!
 
-<div class="post-image">
-	<img srcset="{{site.baseurl}}/img/posts/20151102/sasscraft--small.jpg 320w,
-		{{site.baseurl}}/img/posts/20151102/sasscraft--medium.jpg 480w, 
-		{{site.baseurl}}/img/posts/20151102/sasscraft--large.jpg 680w" 
-		src="{{site.baseurl}}/img/posts/20151102/sasscraft--large.jpg"
-		alt="NerdLab YYC community members working on their crafts at Oak Tree Tavern.">
-	<div class="small-text image-caption">(Cross stitching, colouring, costume making, paper crafting, and more!)</div>
-</div>
+## Quotes for Colouring Pages
 
-I also made some feminist colouring pages that I shared with the others. You can download them individually below or download the [entire collection]({{site.baseurl}}/assets/femcolour/feminist_colouring_pages.zip) (.zip file)!
+I used some amazing quotes from amazing people to create some feminist colouring pages, and I highly encourage you to support the authors and read their books and articles.
+
+> My feminism will be intersectional or it will be bullshit.
+ — [Flavia Dzodan](http://tigerbeatdown.com/2011/10/10/my-feminism-will-be-intersectional-or-it-will-be-bullshit/)
+
+> Fuck a culture that sacrifices women on the altar of men's hurt feelings.
+ — [Julie Pagano](http://firebe.es/archive/2014/08/19/fuck-your-culture-in-cross-stitch/)
+
+> I would rather be a bad feminist than no feminist at all.
+ — [Roxane Gay, Bad Feminist](http://www.roxanegay.com/bad-feminist/)
+
+> Women are powerful and dangerous.
+ — [Audre Lorde](http://alp.org/about-audre-lorde)
+
+> Feminism is for everybody.
+ — [bell hooks](http://www.bellhooksinstitute.com/)
+
+> It starts with never assuming anything about how a person identifies with gender, culture and race.
+ — [Nasma Ahmed](https://modelviewculture.com/pieces/where-are-you-really-from-microaggressions-and-making-tech-meetups-safe)
+
+> If there's one thing you should understand by now, it's that you are not alone...
+ — [Kronda Adair](https://modelviewculture.com/pieces/dear-marginalized-people-coming-into-tech)
+
+> No matter what you feel is holding you back in life, you can attempt anything.
+— [Felicia Day, You're Never Weird on the Internet](http://feliciadaybook.com/)
+
+## Colouring Pages
+
+You can download the colouring pages individually below or download the [entire collection]({{site.baseurl}}/assets/femcolour/feminist_colouring_pages.zip) (.zip file)!
 
 <ul class="grid">
 	<li class="post-image grid--one-third">
@@ -40,9 +61,9 @@ I also made some feminist colouring pages that I shared with the others. You can
 		<div class="small-text text-align-center image-caption">
 		<a href="{{site.baseurl}}/assets/femcolour/roxane-gay.pdf">(download PDF)</a></div>
 	</li><li class="post-image grid--one-third">
-		<img class="align-center image--border" src="{{site.baseurl}}/img/posts/20151102/audre_lord.png">
+		<img class="align-center image--border" src="{{site.baseurl}}/img/posts/20151102/audre_lorde.png">
 		<div class="small-text text-align-center image-caption">
-		<a href="{{site.baseurl}}/assets/femcolour/audre-lord.pdf">(download PDF)</a></div>
+		<a href="{{site.baseurl}}/assets/femcolour/audre-lorde.pdf">(download PDF)</a></div>
 	</li><li class="post-image grid--one-third">
 		<img class="align-center image--border" src="{{site.baseurl}}/img/posts/20151102/bell_hooks.png">
 		<div class="small-text text-align-center image-caption">
