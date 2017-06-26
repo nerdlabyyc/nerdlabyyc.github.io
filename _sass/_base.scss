@@ -96,7 +96,7 @@ a:hover {
 }
 
 
-.meetup-link--join {  
+.meetup-link--join {
     margin-top:30px;
 }
 
@@ -182,24 +182,24 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -120px; 
+  margin-bottom: -120px;
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 120px; 
+  height: 120px;
 }
 
 
 @media (min-width:560px) {
 
 	.page-wrap {
-	  margin-bottom: -183px; 
+	  margin-bottom: -183px;
 	}
 	.site-footer, .page-wrap:after {
-	  height: 183px; 
+	  height: 183px;
 	}
 
 }
@@ -207,10 +207,10 @@ html, body {
 @media (min-width:737px) {
 
 	.page-wrap {
-	  margin-bottom: -141px; 
+	  margin-bottom: -141px;
 	}
 	.site-footer, .page-wrap:after {
-	  height: 141px; 
+	  height: 141px;
 	}
 
 }
@@ -218,10 +218,10 @@ html, body {
 @media (min-width:1062px) {
 
 	.page-wrap {
-	  margin-bottom: -120px; 
+	  margin-bottom: -120px;
 	}
 	.site-footer, .page-wrap:after {
-	  height: 120px; 
+	  height: 120px;
 	}
 
 }
@@ -353,7 +353,7 @@ html, body {
         display: block;
         margin-top: -1px;
         border-top: 2px solid $grey-color;
-    }   
+    }
 }
 
 .event-description {
@@ -411,4 +411,14 @@ html, body {
     margin-top:0;
     margin-bottom: 1rem;
 
+}
+
+.footnote-wrapper {
+}
+
+.footnote-wrapper a {
+    border-width:1px;
+}
+.cc-license {
+    border:none;
 }

@@ -87,7 +87,11 @@ You can download the colouring pages individually below or download the [entire 
 	</li>
 </ul>
 
-<p class="small-text">Thanks to Shala from <a href="http://www.donteatthepaste.com/">Don't Eat the Paste</a>, <a href="http://geometrip.com/">Geometrip</a>, Heather from <a href="http://beautythatmoves.typepad.com/">Beauty that Moves</a>, and <a href="http://sinagtala.deviantart.com/">Sinagtala</a> for the colouring patterns.</p>
+<div class="small-text footnote-wrapper">
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="cc-license"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Feminist Colouring Pages</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://nerdlabyyc.com" property="cc:attributionName" rel="cc:attributionURL">NerdLab YYC</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+
+<p>Thanks to Shala from <a href="http://www.donteatthepaste.com/">Don't Eat the Paste</a>, <a href="http://geometrip.com/">Geometrip</a>, Heather from <a href="http://beautythatmoves.typepad.com/">Beauty that Moves</a>, and <a href="http://sinagtala.deviantart.com/">Sinagtala</a> for the colouring patterns.</p>
+</div>
 
 Next month is book club! Join us to read [What Works for Women at Work](https://www.goodreads.com/book/show/17920210-what-works-for-women-at-work) by Joan C. Williams and Rachel Dempsey.
 
