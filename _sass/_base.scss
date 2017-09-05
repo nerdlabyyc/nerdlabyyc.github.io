@@ -8,17 +8,43 @@ html {
   box-sizing: inherit;
 }
 
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 body {
-    font-size: $base-font-size;
-    border-top: 5px solid $brand-color;
-    font-family: $base-font-family;
-    line-height: 1.6;
+    // font-size: $base-font-size;
+    // font-family: $base-font-family;
+    // line-height: 1.6;
     color: $text-color;
     font-weight:300;
 }
 a {
     text-decoration:none;
-    border-bottom:2px solid $brand-color-dark;
+    border-bottom:1px solid $brand-color-dark;
     color:$brand-color-dark;
 }
 
@@ -42,16 +68,26 @@ a:hover {
 .tagline__header {
     margin:0;
     line-height:1.5;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    text-transform:uppercase;
 }
 
 .tagline__container {
     max-width: 832px;
     margin: auto;
-    padding: 0 10px;
+    padding: 100px 10px;
 }
 
-.section {
-    padding: 6rem 0;
+.tagline__description {
+    color: #FFFFFF;
+    font-weight:300;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.50);
+    margin-bottom:20px;
+    margin-top:50px;
 }
 
 .section-header {
@@ -61,15 +97,50 @@ a:hover {
 
 .section__tagline {
     text-align:center;
+    position:relative;
+    overflow:hidden;
 }
+
+// @media (min-width: 1024px) {
+//     .section__tagline {
+//         padding: 13rem 0;
+//     }
+// }
 
 .color-background {
     background-color: $background-color;
 }
 
 .image-background {
-    background-image: url(../img/background.png);
+    background-image: linear-gradient(to right, #6c655f 0%, #675e55 50%, #92877c 75%, #b8ada5 100%);
+    background-image: url(../img/masthead.jpg);
+    background-size:cover;
+    background-color: #665e58;
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transform: scale(1.03);
 }
+
+// @media (min-width: 720px) {
+
+//     .image-background {
+//         background-image: url(../img/masthead-medium.jpg);
+//     }
+
+// }
+
+// @media (min-width: 1024px) {
+
+//     .image-background {
+//         background-image: url(../img/masthead-large.jpg);
+//     }
+// }
+
 .post-header, footer, .button {
     text-align: center;
 }
@@ -117,24 +188,6 @@ a:hover {
     text-decoration: line-through;
 }
 
-
-.social-links {
-    text-align:right;
-    height:20px;
-    z-index:1;
-    position:relative;
-}
-
-.social-link {
-    border-bottom:0;
-    margin-right: 15px;
-}
-
-.social-link img {
-    max-width:30px;
-}
-
-
 .coc__container {
     background-color:$text-color;
     padding:20px;
@@ -143,7 +196,6 @@ a:hover {
 .footer__coc {
     max-width:1240px;
     margin:auto;
-    font-size: 14px;
     text-align:left;
     color:$text-color-light;
 }
@@ -163,8 +215,7 @@ a:hover {
 }
 
 .site-attribution {
-    max-width:1240px;
-    margin:auto;
+    float:left;
     font-size:12px;
     text-align:left;
     font-weight:400;
@@ -172,6 +223,21 @@ a:hover {
 
 .site-name {
     text-transform:uppercase;
+}
+
+.social-links {
+    text-align:right;
+    float:right;
+    font-size:16px;
+}
+
+.social-link {
+    border-bottom:0;
+    margin-left: 30px;
+}
+
+.social-link img {
+    max-width:30px;
 }
 
 // Sticky Footer using Min Height
@@ -182,77 +248,82 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -120px;
+  margin-bottom: -214px;
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 120px;
+  height: 214px;
 }
 
 
-@media (min-width:560px) {
+// @media (min-width:560px) {
 
-	.page-wrap {
-	  margin-bottom: -183px;
-	}
-	.site-footer, .page-wrap:after {
-	  height: 183px;
-	}
+// 	.page-wrap {
+// 	  margin-bottom: -183px;
+// 	}
+// 	.site-footer, .page-wrap:after {
+// 	  height: 183px;
+// 	}
 
-}
+// }
 
-@media (min-width:737px) {
+// @media (min-width:737px) {
 
-	.page-wrap {
-	  margin-bottom: -141px;
-	}
-	.site-footer, .page-wrap:after {
-	  height: 141px;
-	}
+// 	.page-wrap {
+// 	  margin-bottom: -141px;
+// 	}
+// 	.site-footer, .page-wrap:after {
+// 	  height: 141px;
+// 	}
 
-}
+// }
 
-@media (min-width:1062px) {
+// @media (min-width:1062px) {
 
-	.page-wrap {
-	  margin-bottom: -120px;
-	}
-	.site-footer, .page-wrap:after {
-	  height: 120px;
-	}
+// 	.page-wrap {
+// 	  margin-bottom: -120px;
+// 	}
+// 	.site-footer, .page-wrap:after {
+// 	  height: 120px;
+// 	}
 
-}
+// }
 
 
 .post-content {
     max-width:700px;
-    margin:1rem auto;
+    margin:4rem auto;
     padding:0 10px;
 }
 
-@media (min-width:400px) {
-    .post-content {
-        margin:2rem auto;
-    }
-}
+// @media (min-width:400px) {
+//     .post-content {
+//         margin:2rem auto;
+//     }
+// }
 
-@media (min-width:850px) {
-    .post-content {
-        margin:3rem auto;
-    }
-}
+// @media (min-width:850px) {
+//     .post-content {
+//         margin:3rem auto;
+//     }
+// }
 
 .section__upcoming-event {
     text-align:center;
+    margin: 50px 0;
 }
 
 .post-header {
     background-image: url(../img/background.png);
     background-color: $background-color;
-    padding: 3rem 10px 2rem;
+    padding: 2rem 10px;
+}
+
+.post-title {
+    margin: 2rem 0;
 }
 
 .image-caption {
@@ -279,11 +350,11 @@ html, body {
     padding-bottom:3px;
 }
 
-@media (min-width:700px) {
-    .blog-list-header {
-        font-size:25px;
-    }
-}
+// @media (min-width:700px) {
+//     .blog-list-header {
+//         font-size:25px;
+//     }
+// }
 
 .blog-list-header__link {
     border-bottom:none;
@@ -319,42 +390,42 @@ html, body {
     margin: 0 auto 1rem;
 }
 
-@media (min-width:400px) {
-    .event-date {
-        margin-right:20px;
-    }
-    .meetup-details {
-        text-align:center;
-        display:inline-block;
-        max-width: 1000px;
-    }
-}
-@media (min-width:605px) {
-    .meetup-details {
-        position:relative;
-        display:inline-block;
-    }
+// @media (min-width:400px) {
+//     .event-date {
+//         margin-right:20px;
+//     }
+//     .meetup-details {
+//         text-align:center;
+//         display:inline-block;
+//         max-width: 1000px;
+//     }
+// }
+// @media (min-width:605px) {
+//     .meetup-details {
+//         position:relative;
+//         display:inline-block;
+//     }
 
-    .meetup-details:before {
-        right: 100%;
-        margin-right: 25px;
-    }
+//     .meetup-details:before {
+//         right: 100%;
+//         margin-right: 25px;
+//     }
 
-    .meetup-details:after {
-        left: 100%;
-        margin-left: 25px;
-    }
-    .meetup-details:before, .meetup-details:after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        height: 3px;
-        width: 90px;
-        display: block;
-        margin-top: -1px;
-        border-top: 2px solid $grey-color;
-    }
-}
+//     .meetup-details:after {
+//         left: 100%;
+//         margin-left: 25px;
+//     }
+//     .meetup-details:before, .meetup-details:after {
+//         content: "";
+//         position: absolute;
+//         top: 50%;
+//         height: 3px;
+//         width: 90px;
+//         display: block;
+//         margin-top: -1px;
+//         border-top: 2px solid $grey-color;
+//     }
+// }
 
 .event-description {
     max-width:700px;
@@ -421,4 +492,46 @@ html, body {
 }
 .cc-license {
     border:none;
+}
+
+
+// Email Newsletter Sign-up
+.sign-up {
+    display:inline-block;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.6);
+    height:50px;
+    .email-input {
+        display:inline-block;
+
+        input {
+            height:50px;
+            width: 400px;
+            padding: 5px 20px;
+            font-size: 16px;
+            border:none;
+        }
+    }
+
+    .submit-button {
+        display:inline-block;
+        text-transform:uppercase;
+        height:50px;
+        width:125px;
+        @include button-bg($brand-color);
+        font-size: 14px;
+        color: #FFFFFF;
+        letter-spacing: 1.4px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        cursor: pointer;
+        position:relative;
+        top: -1.5px;
+    }
+}
+
+// Sponsor Page
+.sponsor-image {
+    display:block;
+    margin:25px auto;
 }

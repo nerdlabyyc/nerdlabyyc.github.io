@@ -1,5 +1,5 @@
 var getMeetupData = function() {
-    var meetupURL = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=nerdlab-yyc&only=name%2Cevent_url%2Cvenue.name%2Cdescription%2Ctime%2Cutc_offset&photo-host=public&page=1&fields=&order=time&desc=false&status=upcoming&sig_id=58437552&sig=ce25f734bda4b5ebd107e1b132bc331b49e57792&callback=?",
+    var meetupURL = "https://api.meetup.com/nerdlab-yyc/events?photo-host=public&page=20&sig_id=58437552&sig=a448fc3ec2e081bc8df6c556636672517b94fe6d&callback=?",
         eventDate = $('#event-date'),
         eventLocation = $('#event-location'),
         eventTitle = $('#event-title'),
@@ -11,29 +11,31 @@ var getMeetupData = function() {
 
 
     $.getJSON(meetupURL, function(data) {
-        if (!$.isEmptyObject(data.results)) {
 
-            var d = new Date(data.results[0].time + data.results[0].utc_offset);
-            var eventDescriptionFull = data.results[0].description;
-            var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
+        console.log(data.data);
+        // if (!$.isEmptyObject(data.results)) {
 
-            eventDate.text(getDateFormat(d));
-            if (data.results.hasOwnProperty('venue')) {
-                eventLocation.text(data.results[0].venue.name);   
-            } else {
-                $('#event-location').addClass('hidden');
-                $('#event-date').removeClass('event-date');
-            }
+        //     var d = new Date(data.results[0].time + data.results[0].utc_offset);
+        //     var eventDescriptionFull = data.results[0].description;
+        //     var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
+
+        //     eventDate.text(getDateFormat(d));
+        //     if (data.results.hasOwnProperty('venue')) {
+        //         eventLocation.text(data.results[0].venue.name);
+        //     } else {
+        //         $('#event-location').addClass('hidden');
+        //         $('#event-date').removeClass('event-date');
+        //     }
             
-            eventTitle.text(data.results[0].name);
-            eventDescription.html(eventDescriptionSnippet[0]);
-            eventRSVP.attr("href", data.results[0].event_url);
-            eventLoading.toggleClass('hidden');
-            eventYes.toggleClass('hidden');
-        } else {
-            eventLoading.toggleClass('hidden');
-            eventNo.toggleClass('hidden');
-        }
+        //     eventTitle.text(data.results[0].name);
+        //     eventDescription.html(eventDescriptionSnippet[0]);
+        //     eventRSVP.attr("href", data.results[0].event_url);
+        //     eventLoading.toggleClass('hidden');
+        //     eventYes.toggleClass('hidden');
+        // } else {
+        //     eventLoading.toggleClass('hidden');
+        //     eventNo.toggleClass('hidden');
+        // }
     });
 
 };
