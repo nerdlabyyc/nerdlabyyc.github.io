@@ -10,13 +10,9 @@ We value intersectional feminism, our local community and nerding out. We are wo
 
 ## Events
 
-Currently, our events  include:
+Currently, our events include:
 
-- Project Sessions
-- [Salons (aka discussion groups)](/feminist-salon)
-- Workshops:
-  * Learn to Speak at Tech Events
-  * Ally Skills
-- Book Club
+- Project Sessions (monthly)
+- Short Reads (quarterly)
 
-We also enjoy participating in other community events. You'll often find us at [Pixels & Pints](http://www.meetup.com/pxandpints/), [Calgary UX](http://calgaryux.com) and [Nerd Nite Calgary](http://calgary.nerdnite.com/). If you have similar values - and are looking for a fun, <del>sarcastic</del> and supportive community in Calgary -  join us on Meetup.
+If you have similar values - and are looking for a fun, <del>sarcastic</del> and supportive community in Calgary -  join us on Meetup.
