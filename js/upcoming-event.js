@@ -12,30 +12,29 @@ var getMeetupData = function() {
 
     $.getJSON(meetupURL, function(data) {
 
-        console.log(data.data);
-        // if (!$.isEmptyObject(data.results)) {
+        if (!$.isEmptyObject(data.results)) {
 
-        //     var d = new Date(data.results[0].time + data.results[0].utc_offset);
-        //     var eventDescriptionFull = data.results[0].description;
-        //     var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
+            var d = new Date(data.results[0].time + data.results[0].utc_offset);
+            var eventDescriptionFull = data.results[0].description;
+            var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
 
-        //     eventDate.text(getDateFormat(d));
-        //     if (data.results.hasOwnProperty('venue')) {
-        //         eventLocation.text(data.results[0].venue.name);
-        //     } else {
-        //         $('#event-location').addClass('hidden');
-        //         $('#event-date').removeClass('event-date');
-        //     }
-            
-        //     eventTitle.text(data.results[0].name);
-        //     eventDescription.html(eventDescriptionSnippet[0]);
-        //     eventRSVP.attr("href", data.results[0].event_url);
-        //     eventLoading.toggleClass('hidden');
-        //     eventYes.toggleClass('hidden');
-        // } else {
-        //     eventLoading.toggleClass('hidden');
-        //     eventNo.toggleClass('hidden');
-        // }
+            eventDate.text(getDateFormat(d));
+            if (data.results.hasOwnProperty('venue')) {
+                eventLocation.text(data.results[0].venue.name);
+            } else {
+                $('#event-location').addClass('hidden');
+                $('#event-date').removeClass('event-date');
+            }
+
+            eventTitle.text(data.results[0].name);
+            eventDescription.html(eventDescriptionSnippet[0]);
+            eventRSVP.attr("href", data.results[0].event_url);
+            eventLoading.toggleClass('hidden');
+            eventYes.toggleClass('hidden');
+        } else {
+            eventLoading.toggleClass('hidden');
+            eventNo.toggleClass('hidden');
+        }
     });
 
 };
