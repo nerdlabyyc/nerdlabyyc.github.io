@@ -15,4 +15,4 @@ Currently, our events include:
 - Project Sessions (monthly)
 - Short Reads (quarterly)
 
-If you have similar values - and are looking for a fun, <del>sarcastic</del> and supportive community in Calgary -  join us on Meetup.
+If you have similar values - and are looking for a fun, <del>sarcastic</del> and supportive community in Calgary -  join us on [Meetup](https://www.meetup.com/NerdLab-YYC/).

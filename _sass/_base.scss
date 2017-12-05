@@ -1,4 +1,4 @@
-@import 'normalize';
+   @import 'normalize';
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -108,7 +108,13 @@ a:hover {
 // }
 
 .color-background {
-    background-color: $background-color;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .image-background {
@@ -122,7 +128,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: -1;
+    z-index: -2;
     transform: scale(1.03);
 }
 
@@ -200,6 +206,12 @@ a:hover {
     color:$text-color-light;
 }
 
+.footer__coc-text {
+    font-size: 12px;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
 .footer__coc a {
     color: #EA8A96;
     border-bottom: 2px solid #EA8A96;
@@ -240,62 +252,22 @@ a:hover {
     max-width:30px;
 }
 
-// Sticky Footer using Min Height
+// Sticky Footer using Flexbox
 
-html, body {
-  height: 100%;
-}
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -214px;
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  height: 214px;
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-
-// @media (min-width:560px) {
-
-// 	.page-wrap {
-// 	  margin-bottom: -183px;
-// 	}
-// 	.site-footer, .page-wrap:after {
-// 	  height: 183px;
-// 	}
-
-// }
-
-// @media (min-width:737px) {
-
-// 	.page-wrap {
-// 	  margin-bottom: -141px;
-// 	}
-// 	.site-footer, .page-wrap:after {
-// 	  height: 141px;
-// 	}
-
-// }
-
-// @media (min-width:1062px) {
-
-// 	.page-wrap {
-// 	  margin-bottom: -120px;
-// 	}
-// 	.site-footer, .page-wrap:after {
-// 	  height: 120px;
-// 	}
-
-// }
+.site-content {
+  flex: 1;
+}
 
 
 .post-content {
     max-width:700px;
-    margin:4rem auto;
+    margin:6rem auto;
     padding:0 10px;
 }
 
@@ -319,11 +291,17 @@ html, body {
 .post-header {
     background-image: url(../img/background.png);
     background-color: $background-color;
+        background: /* top, transparent #111111 */ linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), /* your image */ url(../img/image-collage.png);
     padding: 2rem 10px;
 }
 
 .post-title {
     margin: 2rem 0;
+    line-height: 1.5;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
 
 .image-caption {
@@ -333,6 +311,7 @@ html, body {
 .blog-post__list {
     padding:0;
     margin:0;
+    font-size:10px;
 }
 
 .blog-post__list-item {
@@ -559,4 +538,107 @@ html, body {
 .sponsor-image {
     display:block;
     margin:25px auto;
+}
+
+// Slack Invite Form
+
+.slack-form-wrapper {
+    max-width:500px;
+    margin:auto;
+}
+
+.slack-form {
+
+    font-size:16px;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.slack-input-wrapper {
+    width:100%;
+}
+
+.slack-label {
+    display:block;
+    padding: 0 5px 5px 2px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.slack-input {
+    display:block;
+    width:100%;
+    border:3px solid #111111;
+    line-height: 1.5;
+    font-size: 1.4em;
+    padding: 5px 10px 5px 35px;
+}
+
+.slack-input:focus {
+    outline: none;
+    border: 3px solid $brand-color;
+}
+
+.slack-input::placeholder {
+    font-style:italic;
+}
+
+.slack-input.slack-ea + span {
+    background: url(../img/email.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    background-position: 0;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: -34px;
+    left: 10px;
+}
+
+.slack-submit {
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+    background: #C60A22;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 1.4px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.3);
+    margin-top:20px;
+}
+
+.slack-input[type="email"]:valid + span, {
+
+      // show success!
+        background: url(../img/checkmark.svg);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        width: 20px;
+        background-position: 0;
+        height: 20px;
+        display: inline-block;
+        position: relative;
+        top: -34px;
+        left: 10px;
+}
+
+.small-text p {
+    font-size: 12px;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+// Newsletter Page
+.newsletter-page {
+    text-align: center;
+    margin-top:50px;
 }

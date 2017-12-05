@@ -28,7 +28,7 @@
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1px;
-    padding: 5px;
+    padding: 8px 5px 5px;
     border-radius: 5px;
 }
 
@@ -51,6 +51,7 @@
         -ms-transition: 350ms;
         transition: 350ms;
         position:absolute;
+        z-index:10;
         width:100%;
     }
     .open .menu-list {
