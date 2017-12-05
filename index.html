@@ -12,9 +12,8 @@ layout: default
 </section>
 <section class="section section__upcoming-event">
   <div class="container">
-    <h2 class="section-header">Upcoming Events</h2>
     <p>If you work in a digital or tech space, or you’re simply interested in tech,
-our events are for you. Join us!</p>
+our events are for you. Join us at our next event!</p>
 
     <div class="loading-events" id="loading-events">
       <img src="{{site.baseurl}}/img/preloader.gif" alt="Loading" class="preloader">
@@ -26,10 +25,10 @@ our events are for you. Join us!</p>
       <a href="http://www.meetup.com/NerdLab-YYC/events/past/" class="meetup-link meetup-link--rsvp">See our past events</a>
     </div>
     <div class="yes-events hidden" id="yes-events">
-      <div class="meetup-details">
-          <span class="event-date event-detail fa fa-calendar" id="event-date"></span><span class="event-location event-detail fa fa-map-marker" id="event-location"></span>
-      </div>
       <h3 class="event-title" id="event-title"></h3>
+      <div class="meetup-details">
+          <span class=" fa fa-calendar"><span class="event-date event-detail" id="event-date"></span></span><span class="fa fa-map-marker"><span class="event-location event-detail" id="event-location"></span></span>
+      </div>
       <p class="event-description" id="event-description"></p>
       <a id="event-rsvp" href="" class="meetup-link meetup-link--rsvp">RSVP on Meetup</a>
     </div>

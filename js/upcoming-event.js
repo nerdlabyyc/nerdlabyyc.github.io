@@ -11,24 +11,26 @@ var getMeetupData = function() {
 
 
     $.getJSON(meetupURL, function(data) {
+            var results = data.data[0];
+            console.log(results);
 
-        if (!$.isEmptyObject(data.results)) {
+        if (!$.isEmptyObject(results)) {
 
-            var d = new Date(data.results[0].time + data.results[0].utc_offset);
-            var eventDescriptionFull = data.results[0].description;
+            var d = new Date(results.time + results.utc_offset);
+            var eventDescriptionFull = results.description;
             var eventDescriptionSnippet = eventDescriptionFull.split('</p>');
 
             eventDate.text(getDateFormat(d));
-            if (data.results.hasOwnProperty('venue')) {
-                eventLocation.text(data.results[0].venue.name);
+            if (results.hasOwnProperty('venue')) {
+                eventLocation.text(results.venue.name);
             } else {
                 $('#event-location').addClass('hidden');
                 $('#event-date').removeClass('event-date');
             }
 
-            eventTitle.text(data.results[0].name);
+            eventTitle.text(results.name);
             eventDescription.html(eventDescriptionSnippet[0]);
-            eventRSVP.attr("href", data.results[0].event_url);
+            eventRSVP.attr("href", results.link);
             eventLoading.toggleClass('hidden');
             eventYes.toggleClass('hidden');
         } else {

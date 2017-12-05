@@ -349,11 +349,16 @@ a:hover {
     font-size:14px;
 }
 
-.event-detail.fa {
+.event-detail {
     line-height:1.5;
+    font-family: $base-font-family;
 }
-.event-detail:before {
+.fa:before {
     padding-right:5px;
+}
+
+.fa-map-marker {
+    margin-left: 10px;
 }
 
 
@@ -363,10 +368,14 @@ a:hover {
 }
 
 .meetup-details {
-    font-size:1rem;
-    text-align:left;
-    max-width:200px;
+    font-size:1.6em;
+    text-align:center;
     margin: 0 auto 1rem;
+}
+
+
+.event-title {
+     margin:0;
 }
 
 // @media (min-width:400px) {
@@ -641,4 +650,9 @@ a:hover {
 .newsletter-page {
     text-align: center;
     margin-top:50px;
+}
+
+.event-description p {
+    font-size:1em;
+    text-align: left;
 }
