@@ -62,7 +62,7 @@ h6 {
     letter-spacing: 0em;
 }
 
-p, ol, ul {
+p, ol, ul, figcaption {
     font-family: $base-font-family;
     font-size: 1.2em;
     line-height: 2rem;
@@ -73,7 +73,7 @@ p, ol, ul {
 }
 
 @media screen and (min-width: 480px) {
-    p, ol, ul {
+    p, ol, ul, figcaption {
         font-size: 1.6em;
         line-height: 2.5rem;
         margin-bottom: 2rem;
@@ -111,7 +111,7 @@ p, ol, ul {
 }
 
 @media screen and (min-width: 600px) {
-    p, ol, ul {
+    p, ol, ul, figcaption {
         font-size: 1.6em;
         line-height: 2.5rem;
         margin-bottom: 2rem;
@@ -149,7 +149,7 @@ p, ol, ul {
 }
 
 @media screen and (min-width: 720px) {
-    p, ol, ul {
+    p, ol, ul, figcaption {
         font-size: 1.6em;
         line-height: 3rem;
         margin-bottom: 3rem;
@@ -204,8 +204,4 @@ blockquote {
 }
 .blockquote-author:before {
     content: "—";
-}
-
-ul li, ul p, ol li, ol p, ol ul, ul ol {
-    font-size: 1em;
 }
