@@ -93,5 +93,3 @@ You can download the colouring pages individually below or download the [entire 
 <p>Thanks to Shala from <a href="http://www.donteatthepaste.com/">Don't Eat the Paste</a>, <a href="http://geometrip.com/">Geometrip</a>, Heather from <a href="http://beautythatmoves.typepad.com/">Beauty that Moves</a>, and <a href="http://sinagtala.deviantart.com/">Sinagtala</a> for the colouring patterns.</p>
 </div>
 
-Next month is book club! Join us to read [What Works for Women at Work](https://www.goodreads.com/book/show/17920210-what-works-for-women-at-work) by Joan C. Williams and Rachel Dempsey.
-
