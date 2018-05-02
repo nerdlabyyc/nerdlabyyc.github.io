@@ -2,21 +2,6 @@
 
   <div class="header-wrapper">
     <a class="site-title" href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/img/nerdlabyyc-logo.png" alt="NerdLab YYC"></a>
-    <button class="menu-button" id="menu-button">Menu</button>
-
-    <nav class="site-nav">
-      <div class="trigger" id="trigger">
-        <ul class="menu-list">
-          {% assign sortedPages = site.pages | sort:"weight" %}
-          {% for p in sortedPages %}
-            {% if p.title and p.weight %}
-            <li class="menu-list__item">
-            <a {% if p.url == page.url %} class="menu-link active" {% else %} class="menu-link" {% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </nav>
 
   </div>
 
